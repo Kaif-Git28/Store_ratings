@@ -2,6 +2,18 @@
 
 A full-stack web application for rating stores, supporting three user roles: **System Administrator**, **Normal User**, and **Store Owner**.
 
+✅ Features
+
+🔐 Role-Based Access (Admin, Store Owner, User)
+
+⭐ Store Rating System
+
+📊 Admin Dashboard & Analytics
+
+📬 Form Validations & Notifications
+
+📱 Mobile Responsive Design
+
 ## 🛠 Tech Stack
 
 - **Frontend**: React.js, TailwindCSS
