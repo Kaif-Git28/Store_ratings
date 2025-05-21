@@ -2,7 +2,7 @@
 
 A full-stack web application for rating stores, supporting three user roles: **System Administrator**, **Normal User**, and **Store Owner**.
 
-✅ Features
+# Features
 
 🔐 Role-Based Access (Admin, Store Owner, User)
 
