@@ -96,6 +96,7 @@ exports.getDashboardStats = async (req, res) => {
         recentRatings
       }
     });
+    
   } catch (error) {
     console.error('Dashboard stats error:', error);
     res.status(500).json({
