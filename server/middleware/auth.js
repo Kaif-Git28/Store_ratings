@@ -50,6 +50,7 @@ exports.authorize = (...roles) => {
       if (Array.isArray(role)) {
         return role.includes(req.user.role);
       } 
+      
       // Otherwise, check if user's role matches the role string
       return req.user.role === role;
     });
