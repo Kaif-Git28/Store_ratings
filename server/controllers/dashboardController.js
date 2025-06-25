@@ -6,6 +6,7 @@ const { sequelize } = require('../config/db');
 // @route   GET /api/dashboard/stats
 // @access  Private (admin only)
 exports.getDashboardStats = async (req, res) => {
+  
   try {
     // Check if user is admin
     if (req.user.role !== ROLES.ADMIN) {
