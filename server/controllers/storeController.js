@@ -18,6 +18,7 @@ exports.getStores = async (req, res) => {
           attributes: ['id', 'score', 'comment']
         }
       ],
+      
       attributes: {
         include: [
           [
