@@ -122,6 +122,7 @@ exports.createStore = async (req, res) => {
       success: true,
       data: store
     });
+    
   } catch (error) {
     console.error('Create store error:', error);
     res.status(500).json({
